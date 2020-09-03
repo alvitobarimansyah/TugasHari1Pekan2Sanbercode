@@ -10,17 +10,13 @@ dict = {"Negara": ["Indonesia", "Jepang", "India", "China", "Amerika Serikat"],
 brics = pd.DataFrame(dict)
 print(brics)
 
-# soal no 1
+# soal no 2
 
 import pandas as pd
 
-dict = {"Negara": ["Indonesia", "Jepang", "India", "China", "Amerika Serikat"],
-       "Ibu Kota": ["Jakarta", "Tokyo", "New Dehli", "Beijing", "Washington, D.C."],
-       "Luas": [1905, 377972, 3287, 9597, 9834],
-       "Populasi": [264, 143, 1252, 1357, 5298] }
+df = pd.read_csv('diamonds-1.csv')
 
-brics = pd.DataFrame(dict)
-print(brics)
+df
 
 # soal no 3
 
